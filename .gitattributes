@@ -1,0 +1,64 @@
+# Unity-specific files (e.g., >100MB)
+*.unity filter=lfs diff=lfs merge=lfs -text -size>100M
+*.prefab filter=lfs diff=lfs merge=lfs -text -size>100M
+
+# Large image files (e.g., >100MB)
+*.png filter=lfs diff=lfs merge=lfs -text -size>100M
+*.jpg filter=lfs diff=lfs merge=lfs -text -size>100M
+*.jpeg filter=lfs diff=lfs merge=lfs -text -size>100M
+*.tga filter=lfs diff=lfs merge=lfs -text -size>100M
+
+# Other image files (e.g., >100MB)
+*.gif filter=lfs diff=lfs merge=lfs -text -size>100M
+*.bmp filter=lfs diff=lfs merge=lfs -text -size>100M
+*.tiff filter=lfs diff=lfs merge=lfs -text -size>100M
+
+# Audio files
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.flac filter=lfs diff=lfs merge=lfs -text
+
+# Video files(e.g., >100MB)
+*.mp4 filter=lfs diff=lfs merge=lfs -text -size>100M
+*.mov filter=lfs diff=lfs merge=lfs -text -size>100M
+*.avi filter=lfs diff=lfs merge=lfs -text -size>100M
+*.mkv filter=lfs diff=lfs merge=lfs -text -size>100M
+
+# 3D Model files (e.g., >100MB)
+*.fbx filter=lfs diff=lfs merge=lfs -text -size>100M
+*.obj filter=lfs diff=lfs merge=lfs -text -size>100M
+*.dae filter=lfs diff=lfs merge=lfs -text -size>100M
+*.3ds filter=lfs diff=lfs merge=lfs -text -size>100M
+*.blend filter=lfs diff=lfs merge=lfs -text -size>100M
+
+# Texture files
+*.dds filter=lfs diff=lfs merge=lfs -text
+*.ktx filter=lfs diff=lfs merge=lfs -text
+
+# Shader files
+*.shader filter=lfs diff=lfs merge=lfs -text
+*.cginc filter=lfs diff=lfs merge=lfs -text
+
+# Other Unity files
+*.asset filter=lfs diff=lfs merge=lfs -text
+*.anim filter=lfs diff=lfs merge=lfs -text
+*.controller filter=lfs diff=lfs merge=lfs -text
+*.mask filter=lfs diff=lfs merge=lfs -text
+*.mat filter=lfs diff=lfs merge=lfs -text
+*.cubemap filter=lfs diff=lfs merge=lfs -text
+*.rendertexture filter=lfs diff=lfs merge=lfs -text
+
+# Miscellaneous
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.rar filter=lfs diff=lfs merge=lfs -text
+*.7z filter=lfs diff=lfs merge=lfs -text
+
+# Exclude text-based files from LFS
+*.txt !filter !diff !merge -text
+*.md !filter !diff !merge -text
+*.json !filter !diff !merge -text
+*.xml !filter !diff !merge -text
+*.yml !filter !diff !merge -text
+*.yaml !filter !diff !merge -text
+*.csv !filter !diff !merge -text
