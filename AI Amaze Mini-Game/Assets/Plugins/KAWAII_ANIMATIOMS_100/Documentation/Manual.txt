@@ -1,0 +1,15 @@
+https://youtu.be/3-WuorD1r5I
+
+Sorry.
+I don't know how to get rid of the animation import error when making it humanoid, so I made it generic.
+I need to make some modifications.
+
+First, change the DummyDoll rig from generic to humanoid.
+You can use presets to match bones to humanoids.
+
+Next, update the animation rig.
+
+That's it.
+
+I looked into how to get rid of the animation import error when making it humanoid, but I couldn't figure it out.
+I would appreciate it if anyone who knows the solution could let me know.
